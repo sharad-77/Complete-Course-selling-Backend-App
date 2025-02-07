@@ -13,6 +13,6 @@ coursesRoute.post(("/payment"),(req,res) => {
  })
 });
 
-module.exports({
-    coursesRoute
-})
+module.exports = {
+   coursesRoute:coursesRoute
+}
